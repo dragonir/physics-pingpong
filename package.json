@@ -1,7 +1,7 @@
 {
-  "name": "threejs-journey-exercise",
+  "name": "threejs-odessey",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "3.0",
+    "vite-plugin-compression": "^0.5.1",
     "vite": "^4.0.4"
   },
   "dependencies": {

@@ -1,11 +1,13 @@
 import react from '@vitejs/plugin-react'
+import vitePluginCompress from 'vite-plugin-compression'
 
 const isCodeSandbox = 'SANDBOX_URL' in process.env || 'CODESANDBOX_HOST' in process.env
 
 export default {
     plugins:
     [
-        react()
+        react(),
+        vitePluginCompress(),
     ],
     root: 'src/',
     publicDir: "../public/",
