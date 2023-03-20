@@ -14,10 +14,12 @@ const style = (welcome) => ({
   background: 'rgba(255, 255, 255, .2)',
   backdropFilter: 'blur(4px)',
   padding: '16px',
+  whiteSpace: 'nowrap',
   borderRadius: '12px',
   boxShadow: '1px 1px 2px rgba(0, 0, 0, .2)',
   border: '1px groove rgba(255, 255, 255, .2)',
-  textShadow: '0px 1px 2px rgba(255, 255, 255, .2), 0px 2px 2px rgba(255, 255, 255, .8), 0px 2px 4px rgba(0, 0, 0, .5)'
+  textShadow: '0px 1px 2px rgba(255, 255, 255, .2), 0px 2px 2px rgba(255, 255, 255, .8), 0px 2px 4px rgba(0, 0, 0, .5)',
+  zIndex: '11111'
 });
 
 export default function Experience() {
