@@ -19,7 +19,7 @@ const extensions = (loader) => {
 function Paddle() {
   const { nodes, materials } = useLoader(
     GLTFLoader,
-    "/models/pingpong.glb",
+    './models/pingpong.glb',
     // extensions
   );
   const { pong } = useStore((state) => state.api);
