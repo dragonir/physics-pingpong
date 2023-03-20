@@ -30,3 +30,9 @@ body,
 .github .author {
   padding-left: 8px;
 }
+
+@media only screen and (max-width: 840px) {
+  .tips {
+    transform: translateX(-50%) scale(.8) !important;
+  }
+}
